@@ -18,14 +18,14 @@ spec:
     monitor:
       limits:
         cpu: 100m
-        memory: 128Mi
+        memory: 500Mi
       requests:
         cpu: 100m
-        memory: 128Mi
+        memory: 500Mi
     data:
       limits:
         cpu: 250m
-        memory: 256Mi
+        memory: 1Gi
       requests:
         cpu: 250m
-        memory: 256Mi
+        memory: 1Gi
